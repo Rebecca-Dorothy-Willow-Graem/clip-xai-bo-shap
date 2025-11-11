@@ -1,0 +1,22 @@
+# Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Image datasets and large files
+data/
+dataset/
+datasets/
+flickr8k/
+flicker8k/
+images/
+_compare_out/
+results/
+
+# Temporary / analysis files
+*.csv
+*.zip
+*.bat
