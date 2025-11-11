@@ -1,4 +1,4 @@
-✅ Final README.md (English, clean and publication-ready)
+
 # BO-SHAP for CLIP Image-Text Alignment
 
 This repository provides an implementation of **BO-SHAP**, a Shapley-based interpretability method for CLIP image–text matching.  
