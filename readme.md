@@ -16,9 +16,7 @@ Our experiments show that **BO-SHAP (k=1)** closely matches original SHAP attrib
 
 Given a segmentation of the image into *N* superpixels, the Shapley value for each region is decomposed:
 
-\[
-\phi_i = \sum_{|S|\le k} w_{|S|} \, \Delta_i(S) \;+\; \Lambda_{k,i}
-\]
+$\displaystyle \phi_i = \sum_{|S|\le k} w_{|S|} \, \Delta_i(S) + \Lambda_{k,i}$
 
 - The first term (**≤k**) is computed **exactly**
 - The remainder (tail **>k**) is **upper-bounded** via local randomized search
